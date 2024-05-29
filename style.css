@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-nav{
+    padding: 0% 2% 0% 2%;
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-hero-bg-blob-green.svg");
+    background-repeat: no-repeat;
+}
+ .navbar-toggler{
+    background-color: #413d3dba;
+    
+ }
+ #brand{
+     font-size: 120%;
+     color: #f47c7c;
+ }
+  a{
+    text-decoration: none;
+  }
+  .nav-item a{
+    color: #4a4a4a;
+    transition-duration: 0.5s;
+  }
+  .nav-item a:hover{
+    color: #f47c7c;
+  }
+  .nav-link span{
+    color: #f47c7c;
+  }
+  .shop-btn{
+    background-color: #f47c7c;
+    color: #fff;
+    border: 2px solid #f47c7c;
+    border-radius: 10px;
+  }
+  h1{
+    color: #3e1f55;
+    font-family: "Sriracha", "handwriting";
+  }
+  .front-1{
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+    padding-left: 8%;
+  }
+  .front-1 p span{ 
+     color: #f47c7c;
+  }
+  .line{
+    padding-bottom: 1.5%;
+    border-bottom: 2px solid #f47c7c70;
+    margin-left: 5%;
+  }
+  .front-2{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-hero-bg-blob-yellow.svg");
+    background-repeat: no-repeat;
+  }
+   
+  .cd-1{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-1.svg");
+    border: 2px solid #00000053;
+    border-radius: 20px;
+    padding: 5% 5% 0% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cd-2{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-2.svg");
+    border: 2px solid #00000053;
+    border-radius: 20px;
+    padding: 5% 5% 0% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .cd-3{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-promo-banner-blob-bg-3.svg");
+    border: 2px solid #00000053;
+    border-radius: 20px;
+    padding: 5% 5% 0% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+    padding: 5%;
+  }
+  #cursors{
+    cursor: pointer;
+  }
+  #star{
+    color: #f7ca5b;
+  }
+   
+  .boy-2{
+     border-radius: 20px;
+     background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-banner-bg-blob-yellow.svg");
+     background-color: #f7ca5b;
+  }
+  
+  .g-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .img-1{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-toys-banner-bg.jpg");
+    background-repeat: no-repeat; 
+  }
+  .img-2{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-clothes-banner-bg.jpg");
+    background-repeat: no-repeat;
+  }
+  .img-3{
+    background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-nutrition-banner-bg.jpg");
+    background-repeat: no-repeat;
+  }
+  .img-1,.img-2,.img-3{
+    background-size: cover;
+    text-align: center;
+     border-radius: 20px;
+     color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    transition-duration: 1s;
+  }
+  .content{
+    background-size: cover;
+    padding-top: 50%; 
+    padding-bottom: 50%;
+    background-color: #603cbc67;
+     color: #fff;
+    transition-duration: 0.7s;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+.img-3:hover .content{
+  background-color: #561ad7c1;
+     border-radius: 20px;
+      color: #fff;
+
+ } 
+ .img-2:hover .content{
+  background-color: #561ad7b7;
+     border-radius: 20px;
+      color: #fff;
+
+ } 
+ .img-1:hover .content{
+  background-color: #561ad7da;
+     border-radius: 20px;
+      color: #fff;
+
+ }
+ #colors{
+  color: #f47c7c;
+ } 
+.love a{
+  text-decoration: none;
+  color: #f47c7c;
+}
+.info-card{
+  border: 2px solid #00000047;
+  border-radius: 20px;
+  background-color: #f7cb5b9a;
+}
+.input-form{
+  background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-cta-blob-bg-overlay.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 20px;
+  background-color: #f7ca5b;
+   padding: 5%;
+}
+.input-form input{
+  padding: 0.9% 5% 0.9% 5%;
+  border-radius: 7px;
+  border: 2px solid #fff;
+}
+.btn{
+  padding: 1% 5% 1% 5%;
+  background-color: #f47c7c;
+}
+.foot{
+  padding: 7% 7% 0% 7%;
+  background-color: #f2f2f2;
+}
+.links a{
+   color: #000000;
+   transition-duration: 0.5s;
+}
+.links a:hover{
+  color: #f47c7c;
+}
+#widget{
+  font-size: 170%;
+  margin-top: 2%;
+}
+.container-about .container{
+  background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-about-us-page-header-img.jpg");
+  padding: 29%;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+ .ct-form{
+  border: 2px solid #00000023;
+   border-radius: 20px;
+   background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-banner-bg-blob-yellow.svg");
+    /* background-color: #f7cb5bb7; */
+   background-size: cover;
+ }
+ label{
+  font-size: 130%;
+ }
+ .back-image{
+  background-image: url("https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-contact-form-img.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 15%;
+   border-radius: 20px;
+ }
+
+ /* shopping kart offcanvas  */
+
+ .offcanvas-right {
+  right: 0;
+  transform: translateX(100%);
+}
+
+.offcanvas.show {
+  transform: translateX(0);
+}
+#contact-icon{
+ padding: 2%;
+ border-radius: 100%;
+ background-color: #f47c7c;
+ color: #fff;
+ font-size: 1.3rem;
+}
+.text{
+ padding: 5% 10% 5% 5%;
+}
+.big{
+  font-size: 1.5rem;
+}
+.c-info{
+  padding-bottom: 2%;
+  border-bottom: 2px solid #0000001a;
+}
+  @media only screen and (max-width:1253px){
+    .card-row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 5%;
+    }
+    .g-row{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      row-gap: 5%;
+    }
+  }
+  @media only screen and (max-width:991px){
+    .foot{
+      text-align: center;
+    }
+  }

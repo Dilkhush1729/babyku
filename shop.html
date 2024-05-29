@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Shop page</title>
+</head>
+
+<body>
+    <!-- nav bar  -->
+    <div class="container-nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid py-3">
+                <a class="navbar-brand" href="index.html"><img class="w-100"
+                        src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-logo.svg"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><span>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./testimonial.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search Products..."
+                            aria-label="Search">
+                    </form>
+                    <div class="icons mt-4">
+
+                        <p> <i class="fa-solid fa-cart-shopping mx-2" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="brand"></i> 
+                            <a href=""><i class="fa-solid fa-user mx-2" id="brand"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Offcanvas -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                    
+            </div>
+            <hr>
+            <div class="offcanvas-body l">
+                <!-- Your shopping cart content goes here -->
+                <p class="text-center ">No products in cart</p>
+                 
+            </div>
+        </div>
+    </div>
+    
+    <div class="container p-5">
+          <p class="">Home / Shop</p>
+          <h1 class="py-3">Shop</h1>
+        <div class="row">
+            <div class="col-lg-5">
+                <p>Showing 1–9 of 12 results <span class="mx-4"><i class="fa-solid fa-bars"></i>
+
+                    Filter</span></p>
+            </div>
+            <div class="col-lg-6">
+                
+                    <select class="form-control" id="exampleSelect">
+                      <option>Short By Latest</option>
+                      <option>Price : Low to Hight</option>
+                      <option>Price : Hight to Low</option>
+                      <option>Short By latest Rating</option>
+                    </select> 
+
+            </div>
+            <div class="col-lg-1">
+                <i class="fa-solid fa-table" id="widget"></i> 
+            </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Extra Soft Touch Lamb Doll</h5>
+                      <p class="card-text">$8.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Twin Cute Bunny Set Combo</h5>
+                      <p class="card-text">$40.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Colorful Birdies on Orange Bandana</h5>
+                      <p class="card-text">$8.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 my-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Extra Soft Touch Lamb Doll</h5>
+                      <p class="card-text">$8.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 my-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Twin Cute Bunny Set Combo</h5>
+                      <p class="card-text">$40.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 my-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Colorful Birdies on Orange Bandana</h5>
+                      <p class="card-text">$8.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Extra Soft Touch Lamb Doll</h5>
+                      <p class="card-text">$8.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Twin Cute Bunny Set Combo</h5>
+                      <p class="card-text">$40.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-product-img-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Colorful Birdies on Orange Bandana</h5>
+                      <p class="card-text">$8.50</p>
+                       <p><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i><i class="fa-regular fa-star"
+                        id="star"></i><i class="fa-regular fa-star" id="star"></i></p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="conatiner foot mt-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="./index.html"><img
+                            src="https://websitedemos.net/baby-store-04/wp-content/uploads/sites/750/2020/12/baby-store-logo.svg"
+                            alt="" class="img-fluid"></a>
+                    <p class="py-5">123 Fifth Ave, New York, NY 12004. <br>
+                        +1 123 456 78 90 <br>
+                        mail@example.com</p>
+                    <p><a href=""><i class="fa-brands fa-facebook" id="colors"></i></a> <a href=""><i
+                                class="fa-brands fa-twitter" id="colors"></i></a> <a href=""><i
+                                class="fa-brands fa-instagram" id="colors"></i></a> <a href=""><i
+                                class="fa-brands fa-youtube" id="colors"></i></a></p>
+                </div>
+                <div class="col-lg-3 links">
+                    <h4 class="">Customer Service</h4>
+                    <p class="pt-4"><a href="">Contact Us</a></p>
+                    <p><a href="">Help & FAQs</a></p>
+                    <p><a href="">Payment Method</a></p>
+                    <p><a href="">Delivery Information</a></p>
+                    <p><a href="">Track Your Order</a></p>
+                    <p><a href="">Return & Exchanges</a></p>
+                </div>
+                <div class="col-lg-3 links">
+                    <h4 class="">Categories</h4>
+                    <p class="pt-4"><a href="">Clothing & Fashion</a></p>
+                    <p><a href="">Toys</a></p>
+                    <p><a href="">School Supplies</a></p>
+                    <p><a href="">Birthday Party Supplies</a></p>
+                    <p><a href="">Baby Diapering</a></p>
+                </div>
+                <div class="col-lg-3 links">
+                    <h4 class="">Our Company</h4>
+                    <p class="pt-4"><a href="">Corporate Information</a></p>
+                    <p><a href="">Privacy & Cookies Policy</a></p>
+                    <p><a href="">Terms & Condition</a></p>
+                    <p><a href="">Promo & Terms</a></p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center p-2 mt-3">Copyright © 2024 Baby Store | Powered by <a href="./index.html">Baby
+                    Store</a></p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+
+
+</body>
+
+</html>
